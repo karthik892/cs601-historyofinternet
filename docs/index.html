@@ -9,7 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <style>
         .carousel-item-image-div {
@@ -20,119 +20,154 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">History of the Internet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">History of the Internet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">The Internet: Behind the web</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                The true story of the Internet
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Browser Wars</a></li>
-                                <li><a class="dropdown-item" href="#">Internet Search</a></li>
-                                <li><a class="dropdown-item" href="#">Dot Com Bubble</a></li>
-                                <li><a class="dropdown-item" href="#">People Power</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                    </ul>
-                </div>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="behind-the-web.html">The Internet: Behind the web</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            The true story of the Internet
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="history-of-internet">History of Internet</a></li>
+                            <li><a class="dropdown-item" href="tsi-browser-wars.html">Browser Wars</a></li>
+                            <li><a class="dropdown-item" href="tsi-internet-search.html">Internet Search</a></li>
+                            <li><a class="dropdown-item" href="tsi-dot-com-bubble.html">Dot Com Bubble</a></li>
+                            <li><a class="dropdown-item" href="tsi-people">People Power</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+</div>
 
-    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3"
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4"
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4"
                 aria-label="Slide 5"></button>
-            
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/servers.jpg);">
 
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The Internet: Behind the web</h5>
-                    <p>Take a look at some of the major technological acheivements that made the internet what it is
-                        today.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/browser.jpg);">
-
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The True Story of the Internet: Browser Wars</h5>
-                    <p>Take a look at the rise and fall of Netscape and how it shaped the browser landscape</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/search.jpg);">
-
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The True Story of the Internet: Internet Search</h5>
-                    <p>Take a look at how different companies approached the challenge of organizing the vast realm of data on the internet</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/money.jpg);">
-
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The True Story of the Internet: Dot Com Bubble</h5>
-                    <p>Take a look at how The rise of online commerce let to the rise of retail giants like Amazon and eBay and one of the greatest stock market disasters of our time.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/camera.jpg);">
-
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The True Story of the Internet: People</h5>
-                    <p>Take a look at how the internet gave it's users the power to make their voices heard</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/servers.jpg);">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>The Internet: Behind the web</h5>
+                <a href="behind-the-web.html"class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/browser.jpg);">
+
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class>The True Story of the Internet: Browser Wars</h5>
+                <a href="tsi-browser-wars.html"class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/search.jpg);">
+
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>The True Story of the Internet: Internet Search</h5>
+                <a href="tsi-internet-search.html"class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/money.jpg);">
+
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>The True Story of the Internet: Dot Com Bubble</h5>
+                <a href="tsi-dot-com-bubble.html"class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100 carousel-item-image-div" style="background-image: url(img/camera.jpg);">
+
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>The True Story of the Internet: People</h5>
+                <a href="tsi-people.html"class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--Two Section-->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="behind-the-web.html">The Internet: Behind the web</a>
+            <p>Take a look at some of the major technological achievements that made the internet what it is
+                today.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="tsi-browser-wars.html">The True Story of the Internet: Browser Wars</a>
+            <p>Take a look at the rise and fall of Netscape and how it shaped the browser landscape.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="tsi-internet-search.html">The True Story of the Internet: Internet Search</a>
+            <p>Take a look at how different companies approached the challenge of organizing the vast realm of data on the internet</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="tsi-dot-com-bubble.html">The True Story of the Internet: Dot Com Bubble</a>
+            <p>Take a look at how The rise of online commerce let to the rise of retail giants like Amazon and eBay and one of the greatest stock market disasters of our time.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="tsi-people.html">The True Story of the Internet: People</a>
+            <p>Take a look at how The rise of online commerce let to the rise of retail giants like Amazon and eBay and one of the greatest stock market disasters of our time.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="tsi-people.html">History of Internet</a>
+            <p>Take a look at how the internet's history</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
 </body>
