@@ -10,13 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">History of the Internet</a>
+            <a class="navbar-brand" href="index.html">History of the Internet</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="behind-the-web.html">The Internet: Behind the web</a>
+                        <a class="nav-link" href="invention-of-the-internet.html">The Invention of the Internet</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -44,14 +45,17 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="behind-the-web.html">Behind the Web</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-</div>
-    <div class="container">
+    <main>
+        <h1>The Invention of the Internet</h1>
         <p>In the early days of computing, computers were considered as nothing more than Sci-Fi props. Even the mere notion of a network that connected every computer in the world would have probably sounded alien. And yet, we now live in a world where information is literally at our fingertips and talking to someone from across the world is sometimes easier than talking with your next-door neighbor! But these innovations did not just spring up overnight, or even in the past decade. The internet was a result of several great innovations that have occurred over the past century.</p>
         <p>The Advanced Research Projects Agency was created by the Eisenhower administration to take charge of the space program which, at that point, included Computer Science research.</p>
         <p>In the early days, the telephone system used Circuit Switching, this means there is a direct connection between sender and receiver. This, however, posed a problem since it only took a single point of failure for a call to be lost. This was not a mere inconvenience but also posed national security implications for the military in the event of a soviet attack in the 1960s. The solution was to use Packet Switching! The concept was that messages would be chopped up into smaller “packets” that would traverse a grid-like network from source to destination and each node would be responsible for transmitting the packet through to the next node in the grid. By using this technique, a packet will find an alternate path to its destination when a connection between two nodes is broken or destroyed.</p>
@@ -61,8 +65,9 @@
         <p>As the network grew, we had LAN’s (Local Area Networks) to link computers within offices and WAN’s (Wide Area Networks) to link computers across buildings or a campus. The problem at the time was that each network was separate and had different communication protocols. In 1973, Vint Cerf and Bob Kahn teamed up to develop a set of rules and procedures known as the TCP/IP protocol that, when followed by communication networks, would allow them to communicate with each other through gateways. The protocol was eventually adopted in 1983</p>
         <p>In 1992, congress passed a bill making the internet available to the general public. However, it was difficult to navigate and understand. This changed when Tim Berners-Lee developed the technology to link multiple concepts together, this became known as the World Wide Web.</p>
         <p>In 1993, the development of the web browser, Mosaic, by Mark Andreessen, propelled the internet into a user-friendly, feature-rich future.</p>
-    </div>
-
+    </main>
+</div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
